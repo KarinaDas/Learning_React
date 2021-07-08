@@ -1,0 +1,27 @@
+*Mounting*
+
+Constructor
+
+Render
+
+componentDidMount => It is a method that will be excuted at initial render
+
+{-> Get explore repos
+-> get activities
+-> Get Links
+-> Much more}
+
+*Updating*
+
+// order of writing
+Constructor
+shouldComponentUpdate(nextProp, nextState) -> true or false (it will return boolean)
+render() 
+getSnapshotBeforeUpdate(prevProps, prevState) -> true or false
+componentDidUpdate() 
+
+*UnMounting*
+
+componentWillUnmount() {
+    console.log("bye bye");
+}
